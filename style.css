@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: lightslategray;
+    color: white;
+    line-height: 1.8;
+}
+a
+{
+    text-decoration: none;
+}
+#container
+{
+    margin: 30px auto  ;
+    max-width: 400px;
+    padding: 20px;
+}
+.form-wrap
+{
+    background-color: white;
+    padding: 15px 25px;
+    color: #333;
+}
+.form-wrap h1, .form-wrap p{
+    text-align: center;
+}
+.form-wrap .form-group{
+  margin-top: 15px;
+
+}
+
+.form-wrap .form-group label {
+/* 
+  Label should be turned into a block element
+*/
+display: block;
+color: #666;
+}
+
+.form-wrap .form-group input {
+/* 
+  Inputs should reach accross the .form-wrap 100% and have some padding
+*/
+width: 100%;
+padding: 10px;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+
+.form-wrap button {
+/* 
+  Button should wrap accross 100% and display as block
+  Background color for button is #49c1a2
+*/
+display: block;
+width: 100%;
+padding: 10px;
+margin-top: 20px;
+background-color: #49c1a2;
+color: white;
+cursor: pointer
+
+}
+
+.form-wrap button:hover {
+/* 
+  Hover background color for button is #37a08e
+
+*/
+background-color: #37a08e;
+}
+
+.form-wrap .bottom-text {
+/* 
+  Bottom text is smaller
+*/
+font-size: 13px;
+margin-top: 20px;
+}
+
+footer {
+/* 
+Should be centered
+*/
+text-align: center;
+margin-top: 10px;
+}
+
+footer a {
+/* 
+  Footer link color is #49c1a2
+*/
+color: #49c1a2;
+}
